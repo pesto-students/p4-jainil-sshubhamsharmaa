@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: #f2eeee;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 28px;
+  text-align: center;
+}
+.paragraph-heading {
+  margin-top: 20px;
+}
+.posts {
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 992px) {
+  .posts {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
+.column {
+  width: 50%;
+  margin: 0px 5px;
+}
+
+.form {
+  padding-left: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+label {
+  font-size: 15px;
+}
+button {
+  font-size: 15px;
+  background-color: #4caf50;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+.form-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
